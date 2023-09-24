@@ -33,12 +33,12 @@ The loss function used for training the Logistic Regression model is defined as 
 
 The update step for gradient descent is performed using the following equations:
 
-For weights (w):
+#### For weights (w):
 
 
 ![Weight Update](https://latex.codecogs.com/svg.latex?%5Cmathbf%7Bw%7D%20%5Cleftarrow%20%5Cmathbf%7Bw%7D%20-%20%5Calpha%20%5Cleft%28%20%5Cfrac%7B1%7D%7Bm%7D%20%5Cmathbf%7BX%7D%5E%7B%5Ctop%7D%20%28%5Csigma%28%5Cmathbf%7BX%7D%20%5Cmathbf%7Bw%7D%20%2B%20b%29%20-%20%5Cmathbf%7By%7D%29%20+%20%5Clambda%20%5Cmathbf%7Bdiv%7D%29%20%5Cright%29)
 
-For bias (b):
+#### For bias (b):
 
 
 
