@@ -12,9 +12,11 @@ Logistic Regression is a widely used machine learning algorithm for binary class
 Regularization is used to prevent overfitting and improve the generalization of the model. This implementation supports three types of regularization: L2, L1, and no regularization (None).
 
 In L2 regularization, the loss function is augmented by adding a term that is proportional to the square of the magnitude of the weights:
+
 ![L2 Regularization](https://latex.codecogs.com/svg.latex?%5Ctext%7BL2%20Regularization%3A%7D%20%5Cquad%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5C%7C%5Cmathbf%7Bw%7D%5C%7C_2%5E2)
 
 In L1 regularization, the loss function is augmented by adding a term that is proportional to the absolute values of the weights:
+
 ![L1 Regularization](https://latex.codecogs.com/svg.latex?%5Ctext%7BL1%20Regularization%3A%7D%20%5Cquad%20%5Clambda%20%5C%7C%5Cmathbf%7Bw%7D%5C%7C_1)
 
 ### Vectorized Computations
